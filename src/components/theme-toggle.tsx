@@ -11,7 +11,7 @@ export function ThemeToggle() {
     if (theme === "light") {
       setTheme("dark")
     } else if (theme === "dark") {
-      setTheme("system")
+      setTheme("light")
     } else {
       setTheme("light")
     }

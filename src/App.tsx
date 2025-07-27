@@ -11,7 +11,7 @@ function App() {
   const [name, setName] = useState('unknown')
 
   return (
-    <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
+    <div className="min-h-screen transition-colors duration-300">
       {/* Header */}
       <header className="flex items-center justify-between p-4 border-b border-border">
         <h1 className="text-2xl font-bold">Vite + React + Cloudflare</h1>
